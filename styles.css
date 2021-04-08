@@ -91,7 +91,7 @@ div.hero-background {
     background: #f0f0f0;
     padding: 10rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -120,9 +120,6 @@ div.background p {
 }
 
 div.hero-background-pos {
-    position: absolute;
-    right: 0px;
-    left: 66%;
     background: #fff;
     width: 140px;
     height: 140px;
@@ -344,4 +341,80 @@ div.footer h6 {
     color: #88949B;
     font-size: 1rem;
     padding-top: 6rem;
+}
+
+@media only screen and  (max-width: 375px) {
+    div.hero-background {
+        height: 50rem;
+        padding-bottom: 10rem;
+    }
+    div.background {
+        height: 380px;
+        position: relative;
+    }
+
+    div.hero-background-pos {
+        position: relative;
+        left: 8rem;
+        top: -75rem;
+        bottom: 60rem;
+        
+    } 
+    div.hero-section {
+        background: #304353;
+        padding: 1rem;
+        height: 25rem;
+    }
+    div.snapshot-team {
+        padding-top: 6rem;
+    }
+    
+    div.snapshot-box-content {
+        flex-direction: column;
+    }
+    div.footer-input {
+        flex-direction: column;
+    }
+    input[type="text"] {
+        margin-bottom: 1rem;
+        width: 100%;
+        
+    }
+    input[type="email"], textarea{
+        width: 100%;
+    }
+    div.footer-btn a{
+        text-align: center;
+        width: 100%;
+    }
+    ul.nav-links {
+        display: flex;
+        flex-direction: column;
+        margin-left: 7rem;
+    }
+    div.nav-bar {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+}
+@media only screen and (max-width: 320px) {
+    div.hero-background-pos {
+        position: relative;
+        top: 80rem;
+        left: 6rem;         
+    } 
+}
+@media only screen and (max-width: 768px) {
+    div.hero-background {
+        height: 50rem;
+    }
+    div.hero-background-pos {
+        position: absolute;
+        top: 76rem;
+    } 
+    div.background {
+        height: 380px;
+        position: relative;
+    }
 }
