@@ -5,7 +5,6 @@ This project simply involves making the page responsive on different screen size
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
 
@@ -13,7 +12,7 @@ This project simply involves making the page responsive on different screen size
 This project simply involves making the page responsive on different screen sizes.
 
 ### Link
-- Live Site URL: (https://franklynwisdom.github.io/A-simple-Calculator/)
+- Live Site URL: (https://franklynwisdom.github.io/zuri-responsive-design-starter/)
 
 ### Built with
 
