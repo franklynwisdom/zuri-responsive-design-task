@@ -344,6 +344,7 @@ div.footer h6 {
 }
 .nav-bar i {
     visibility: hidden;
+    color: gray;
 }
 .nav-links-mobile{
     display: none;
